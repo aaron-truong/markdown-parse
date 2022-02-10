@@ -27,6 +27,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Compile and run our JUnit tests, also test out echo
-        run:
+        run: |
           echo The directory is: $GITHUB_WORKSPACE
           make test
